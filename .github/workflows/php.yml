@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: my-build-artifact
-        path: build-output/
+        path: ./
         retention-days: 7 # Optional: Set retention period for the artifact
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
